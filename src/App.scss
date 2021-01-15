@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+}
+
+.ant-layout-content {
+  min-height: 100vh;
+}
+
+.full-screen-height {
+  min-height: 100vh;
+}
+
+.column-center {
+  display: flex !important;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.login-container {
+  background-color: white;
+  padding: 30px;
+}
+
+.login-heading {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.ant-table {
+  overflow: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .ant-layout-sider {
+      max-width: none !important;
+      width: 100vw !important;
+      z-index: 1;
+  }
+
+  .ant-layout-sider-collapsed {
+      min-width: 0 !important;
+      width: 0 !important;
+      z-index: 1;
+  }
+
+  .ant-layout-sider-trigger {
+      max-width: none !important;
+      width: 100vw !important;
+      z-index: 1;
+  }
+
+  .ant-layout-sider-collapsed > .ant-layout-sider-trigger {
+      min-width: 10 !important;
+      width: 10 !important;
+      z-index: 1;
+  }
+}
