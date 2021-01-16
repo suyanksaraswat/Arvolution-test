@@ -20,7 +20,7 @@ function Screen1(props) {
                     <Col xs={3} sm={3} md={9} />
                     <Col xs={18} sm={18} md={6} className='column-center'>
                         <div className='login-container'>
-                            <div style={{marginBottom: '50px', textAlign: 'center'}}>
+                            <div className='text-center mb-50'>
                                 <h2>Arvolution Game</h2>
                             </div>
                             <Form
@@ -40,8 +40,8 @@ function Screen1(props) {
                                 >
                                     <Input placeholder="Player 2 Name" />
                                 </Form.Item>
-                                <Form.Item style={{textAlign: 'center'}}>
-                                    <Button type="primary" htmlType="submit" style={{width: '100%'}}>
+                                <Form.Item className='text-center'>
+                                    <Button type="primary" htmlType="submit" className='w-100'>
                                         Continue
                                     </Button>
                                 </Form.Item>

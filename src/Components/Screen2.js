@@ -1,4 +1,5 @@
-import { Button, Row, Col, Layout } from 'antd';
+import { Button, Row, Col, Layout, Divider } from 'antd';
+import { ArrowLeftOutlined } from '@ant-design/icons';
 import React, { useState, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 
@@ -27,52 +28,63 @@ function Screen2(props) {
                 <Row className='full-screen-height'>
                     <Col xs={3} sm={3} md={9} />
                     <Col xs={18} sm={18} md={6} className='column-center'>
+                        <div className='mb-10'>
+                            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                            <a onClick={() => history.push('/')}>
+                                <ArrowLeftOutlined />&nbsp;Back
+                            </a>
+                        </div>
                         <div className='login-container'>
-                            <div style={{display: 'flex', justifyContent: 'space-between'}}>
-                                <span>
+                            <div className='display-flex justify-space-between mb-10'>
+                                <h1 className='playerName'>
                                     {player1Name}
+                                </h1>
+                                <span className='addWin-btn'>
+                                    <Button
+                                        onClick={() => handlePlayer1Game()}
+                                    >
+                                        Add Win
+                                    </Button>
                                 </span>
-                                <Button
-                                    onClick={() => handlePlayer1Game()}
-                                >
-                                    Add Win
-                                </Button>
                             </div>
-                            <div style={{display: 'flex', justifyContent: 'space-between'}}>
-                                <span>
+                            <div className='display-flex justify-space-between mb-20'>
+                                <h3>
                                     Wins:
-                                </span>
-                                <span>
+                                </h3>
+                                <h1>
                                     {player1Win}
-                                </span>
+                                </h1>
                             </div>
-                            <div style={{display: 'flex', justifyContent: 'space-between'}}>
-                                <span>
+                            <div className='display-flex justify-space-between mb-10'>
+                                <h1 className='playerName'>
                                     {player2Name}
+                                </h1>
+                                <span className='addWin-btn'>
+                                    <Button
+                                        onClick={() => handlePlayer2Game()}
+                                    >
+                                        Add Win
+                                    </Button>
                                 </span>
-                                <Button
-                                    onClick={() => handlePlayer2Game()}
-                                >
-                                    Add Win
-                                </Button>
                             </div>
-                            <div style={{display: 'flex', justifyContent: 'space-between'}}>
-                                <span>
+                            <div className='display-flex justify-space-between mb-20'>
+                                <h3>
                                     Wins:
-                                </span>
-                                <span>
+                                </h3>
+                                <h1>
                                     {player2Win}
-                                </span>
+                                </h1>
                             </div>
-                            <div style={{display: 'flex', justifyContent: 'space-between'}}>
+                            <Divider type={'horizontal'} />
+                            <div className='display-flex justify-space-between mb-10'>
                                 <span>
                                     Current Winner:
                                 </span>
-                                <span>
+                                <span className='playerName'>
                                 {player1Win > player2Win ? player1Name : (player2Win > player1Win ? player2Name : 'Draw')}
                                 </span>
                             </div>
-                            <div style={{display: 'flex', justifyContent: 'space-between'}}>
+                            <div className='display-flex justify-space-between'>
                                 <span>
                                     Win Difference:
                                 </span>

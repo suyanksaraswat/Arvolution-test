@@ -26,8 +26,43 @@
   text-align: center;
 }
 
-.ant-table {
-  overflow: auto;
+.playerName {
+  max-width: 50%;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.addWin-btn {
+  max-width: 50%;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.w-100 {
+  width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
