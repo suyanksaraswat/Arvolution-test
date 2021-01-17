@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1 1`] = `
+<section
+  className="ant-layout"
+>
+  <main
+    className="ant-layout-content"
+  >
+    <div
+      className="ant-row full-screen-height"
+      style={Object {}}
+    >
+      <div
+        className="ant-col ant-col-xs-3 ant-col-sm-3 ant-col-md-9"
+        style={Object {}}
+      />
+      <div
+        className="ant-col column-center ant-col-xs-18 ant-col-sm-18 ant-col-md-6"
+        style={Object {}}
+      >
+        <div
+          className="mb-10"
+        >
+          <a
+            onClick={[Function]}
+          >
+            <span
+              aria-label="arrow-left"
+              className="anticon anticon-arrow-left"
+              role="img"
+            >
+              <svg
+                aria-hidden="true"
+                data-icon="arrow-left"
+                fill="currentColor"
+                focusable="false"
+                height="1em"
+                viewBox="64 64 896 896"
+                width="1em"
+              >
+                <path
+                  d="M872 474H286.9l350.2-304c5.6-4.9 2.2-14-5.2-14h-88.5c-3.9 0-7.6 1.4-10.5 3.9L155 487.8a31.96 31.96 0 000 48.3L535.1 866c1.5 1.3 3.3 2 5.2 2h91.5c7.4 0 10.8-9.2 5.2-14L286.9 550H872c4.4 0 8-3.6 8-8v-60c0-4.4-3.6-8-8-8z"
+                />
+              </svg>
+            </span>
+             Back
+          </a>
+        </div>
+        <div
+          className="login-container"
+        >
+          <div
+            className="display-flex justify-space-between mb-10"
+          >
+            <h1
+              className="playerName"
+            />
+            <span
+              className="addWin-btn"
+            >
+              <button
+                className="ant-btn"
+                onClick={[Function]}
+                type="button"
+              >
+                <span>
+                  Add Win
+                </span>
+              </button>
+            </span>
+          </div>
+          <div
+            className="display-flex justify-space-between mb-20"
+          >
+            <h3>
+              Wins:
+            </h3>
+            <h1>
+              0
+            </h1>
+          </div>
+          <div
+            className="display-flex justify-space-between mb-10"
+          >
+            <h1
+              className="playerName"
+            />
+            <span
+              className="addWin-btn"
+            >
+              <button
+                className="ant-btn"
+                onClick={[Function]}
+                type="button"
+              >
+                <span>
+                  Add Win
+                </span>
+              </button>
+            </span>
+          </div>
+          <div
+            className="display-flex justify-space-between mb-20"
+          >
+            <h3>
+              Wins:
+            </h3>
+            <h1>
+              0
+            </h1>
+          </div>
+          <div
+            className="ant-divider ant-divider-horizontal"
+            role="separator"
+          />
+          <div
+            className="display-flex justify-space-between mb-10"
+          >
+            <span>
+              Current Winner:
+            </span>
+            <span
+              className="playerName"
+            >
+              Draw
+            </span>
+          </div>
+          <div
+            className="display-flex justify-space-between"
+          >
+            <span>
+              Win Difference:
+            </span>
+            <span>
+              0
+            </span>
+          </div>
+        </div>
+      </div>
+      <div
+        className="ant-col ant-col-xs-3 ant-col-sm-3 ant-col-md-9"
+        style={Object {}}
+      />
+    </div>
+  </main>
+</section>
+`;

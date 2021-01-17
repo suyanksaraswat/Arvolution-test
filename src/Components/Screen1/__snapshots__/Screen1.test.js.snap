@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1 1`] = `
+<section
+  className="ant-layout"
+>
+  <main
+    className="ant-layout-content"
+  >
+    <div
+      className="ant-row full-screen-height"
+      style={Object {}}
+    >
+      <div
+        className="ant-col ant-col-xs-3 ant-col-sm-3 ant-col-md-9"
+        style={Object {}}
+      />
+      <div
+        className="ant-col column-center ant-col-xs-18 ant-col-sm-18 ant-col-md-6"
+        style={Object {}}
+      >
+        <div
+          className="login-container"
+        >
+          <div
+            className="text-center mb-50"
+          >
+            <h2>
+              Arvolution Game
+            </h2>
+          </div>
+          <form
+            className="ant-form ant-form-horizontal"
+            id="basic"
+            onSubmit={[Function]}
+          >
+            <div
+              className="ant-row ant-form-item"
+              style={Object {}}
+            >
+              <div
+                className="ant-col ant-form-item-control"
+                style={Object {}}
+              >
+                <div
+                  className="ant-form-item-control-input"
+                >
+                  <div
+                    className="ant-form-item-control-input-content"
+                  >
+                    <input
+                      className="ant-input"
+                      id="basic_player1Name"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      placeholder="Player 1 Name"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="ant-row ant-form-item"
+              style={Object {}}
+            >
+              <div
+                className="ant-col ant-form-item-control"
+                style={Object {}}
+              >
+                <div
+                  className="ant-form-item-control-input"
+                >
+                  <div
+                    className="ant-form-item-control-input-content"
+                  >
+                    <input
+                      className="ant-input"
+                      id="basic_player2Name"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      placeholder="Player 2 Name"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="ant-row ant-form-item text-center"
+              style={Object {}}
+            >
+              <div
+                className="ant-col ant-form-item-control"
+                style={Object {}}
+              >
+                <div
+                  className="ant-form-item-control-input"
+                >
+                  <div
+                    className="ant-form-item-control-input-content"
+                  >
+                    <button
+                      className="ant-btn ant-btn-primary w-100"
+                      onClick={[Function]}
+                      type="submit"
+                    >
+                      <span>
+                        Continue
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div
+        className="ant-col ant-col-xs-3 ant-col-sm-3 ant-col-md-9"
+        style={Object {}}
+      />
+    </div>
+  </main>
+</section>
+`;

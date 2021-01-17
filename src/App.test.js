@@ -1,8 +1,21 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { render, screen } from '@testing-library/react'
+import { createMemoryHistory } from 'history'
+import React from 'react'
+import { Router } from 'react-router-dom'
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+import '@testing-library/jest-dom/extend-expect'
+
+import { LocationDisplay } from './App'
+
+test('rendering a component that uses useLocation', () => {
+  const history = createMemoryHistory()
+  const route = '/some-route'
+  history.push(route)
+  render(
+    <Router history={history}>
+      <LocationDisplay />
+    </Router>
+  )
+
+  expect(screen.getByTestId('location-display')).toHaveTextContent(route)
+})
