@@ -1,3 +1,7 @@
+Steps to run code- 1. npm install - to install dependencies
+                   2. npm start   - to execute the code
+                   3. npm test    - to run test cases
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
